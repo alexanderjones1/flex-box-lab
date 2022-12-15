@@ -25,6 +25,15 @@ nav {
     padding: 20px
 }
 
+main {
+    background-color: white;
+    padding: 32px 72px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
 #destinations, #actions {
     display: flex;
     flex-direction: row;
@@ -75,3 +84,10 @@ h3 {
     line-height: 30px;
     margin-top: -45px;
 }
+
+.img-placeholder {
+    width: 391px;
+    height: 203px;
+    background-color: gray;
+    border-radius: 8px;
+  }
